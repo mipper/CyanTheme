@@ -89,7 +89,7 @@
     },
 
     "Editor": {
-      "background": "#d0d3d9",
+      "background": "#c0e1c0",
       "foreground": "#808080",
       "shortcutForeground": "#1b9bb6"
     },
@@ -209,9 +209,9 @@
       "bottomSeparatorColor": "#dfe2e6"
     },
 
-    "TextArea.background": "#FFFFFF",
+    "TextArea.background": "#c0e1c0",
 
-    "TextField.background": "#FFFFFF",
+    "TextField.background": "#c0e1c0",
 
     "ToggleButton": {
       "onBackground": "#28a4c3",
@@ -242,7 +242,7 @@
       }
     },
 
-    "Tree.background": "#eef0f4"
+    "Tree.background": "#c0e1c0"
   },
 
   "icons": {
