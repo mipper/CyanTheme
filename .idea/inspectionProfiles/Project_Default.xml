@@ -1,0 +1,31 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ConstantConditions" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="Production" level="WARNING" enabled="true">
+        <option name="SUGGEST_NULLABLE_ANNOTATIONS" value="false" />
+        <option name="DONT_REPORT_TRUE_ASSERT_STATEMENTS" value="false" />
+      </scope>
+      <option name="SUGGEST_NULLABLE_ANNOTATIONS" value="false" />
+      <option name="DONT_REPORT_TRUE_ASSERT_STATEMENTS" value="false" />
+    </inspection_tool>
+    <inspection_tool class="FieldMayBeFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="MethodMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="m_onlyPrivateOrFinal" value="false" />
+      <option name="m_ignoreEmptyMethods" value="true" />
+    </inspection_tool>
+    <inspection_tool class="NonCommentSourceStatements" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <scope name="Production" level="WARNING" enabled="true">
+        <option name="m_limit" value="50" />
+      </scope>
+      <option name="m_limit" value="50" />
+    </inspection_tool>
+    <inspection_tool class="groupsTestNG" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="groups">
+        <value>
+          <list size="0" />
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

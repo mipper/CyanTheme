@@ -93,7 +93,7 @@
     },
 
     "Editor": {
-      "background": "#C0E1C0",
+      "background": "#c0e1c0",
       "foreground": "#808080",
       "shortcutForeground": "#1b9bb6"
     },
@@ -128,7 +128,7 @@
     },
 
     "List": {
-      "background": "#eef0f4",
+      "background": "#c0e1c0",
       "hoverBackground": "#dae6eb",
       "hoverInactiveBackground": "#dae6eb"
     },
@@ -227,9 +227,9 @@
       "bottomSeparatorColor": "#dfe2e6"
     },
 
-    "TextArea.background": "#C0E1C0",
+    "TextArea.background": "#c0e1c0",
 
-    "TextField.background": "#C0E1C0",
+    "TextField.background": "#c0e1c0",
 
     "ToggleButton": {
       "onBackground": "#28a4c3",
@@ -268,7 +268,7 @@
     },
 
     "WelcomeScreen": {
-      "Details.background": "#eef0f4",
+      "Details.background": "#c0e1c0",
       "Projects.actions.background": "#E1E4EB"
     }
   },
