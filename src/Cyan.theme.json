@@ -93,7 +93,7 @@
     },
 
     "Editor": {
-      "background": "#c0e1c0",
+      "background": "#C0E1C0",
       "foreground": "#808080",
       "shortcutForeground": "#1b9bb6"
     },
@@ -153,7 +153,8 @@
       "Notification.hoverBackground": "#dae6eb"
     },
 
-    "P    "PasswordField.backgrounC0E1C0",
+    "PasswordField.background": "#C0E1C0",
+
 
     "Plugins": {
       "background": "#f5f7fa",
@@ -217,7 +218,7 @@
     },
 
     "Table": {
-      "background": "#eef0f4",
+      "background": "#c0e1c0",
       "hoverBackground": "#C3D2E366"
     },
 
@@ -227,9 +228,9 @@
       "bottomSeparatorColor": "#dfe2e6"
     },
 
-    "TextArea.background": "#c0e1c0",
+    "TextArea.background": "#C0E1C0",
 
-    "TextField.background": "#c0e1c0",
+    "TextField.background": "#C0E1C0",
 
     "ToggleButton": {
       "onBackground": "#28a4c3",
