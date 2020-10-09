@@ -44,7 +44,7 @@
       "startBorderColor": "#b0b9c3",
       "endBorderColor": "#b0b9c3",
       "default": {
-        "foreground": "#FFFFFF",
+        "foreground": "#C0E1C0",
         "startBackground": "#28a4c3",
         "endBackground": "#28a4c3",
         "startBorderColor": "#258aa4",
@@ -55,10 +55,10 @@
 
     "ComboBox": {
       "background": "#eef0f4",
-      "nonEditableBackground": "#FFFFFF",
-      "ArrowButton.background": "#FFFFFF"
+      "nonEditableBackground": "#C0E1C0",
+      "ArrowButton.background": "#C0E1C0"
     },
-    "ComboBoxButton.background": "#FFFFFF",
+    "ComboBoxButton.background": "#C0E1C0",
     "ComboPopup.border": "1,1,1,1,b0b9c3",
 
     "CompletionPopup": {
@@ -80,7 +80,7 @@
 
     "Counter": {
       "background": "#9AA7B0",
-      "foreground": "#FFFFFF"
+      "foreground": "#C0E1C0"
     },
 
     "DefaultTabs": {
@@ -93,7 +93,7 @@
     },
 
     "Editor": {
-      "background": "#c0e1c0",
+      "background": "#C0E1C0",
       "foreground": "#808080",
       "shortcutForeground": "#1b9bb6"
     },
@@ -153,11 +153,11 @@
       "Notification.hoverBackground": "#dae6eb"
     },
 
-    "PasswordField.background": "#FFFFFF",
+    "P    "PasswordField.backgrounC0E1C0",
 
     "Plugins": {
       "background": "#f5f7fa",
-      "SearchField.background": "#FFFFFF",
+      "SearchField.background": "#C0E1C0",
       "SectionHeader.foreground": "#808080",
       "SectionHeader.background": "#edeef2",
       "Tab.selectedBackground": "#cacccf",
@@ -193,7 +193,7 @@
     },
 
     "SearchEverywhere":  {
-      "SearchField.background": "#FFFFFF",
+      "SearchField.background": "#C0E1C0",
       "Tab.selectedBackground": "#d1d4d4",
       "Advertiser.foreground": "#787878"
     },
@@ -206,7 +206,7 @@
     "SidePanel.background": "#e4e6eb",
 
     "SpeedSearch": {
-      "background": "#FFFFFF",
+      "background": "#C0E1C0",
       "errorForeground": "#C7222D"
     },
 
@@ -227,9 +227,9 @@
       "bottomSeparatorColor": "#dfe2e6"
     },
 
-    "TextArea.background": "#c0e1c0",
+    "TextArea.background": "#C0E1C0",
 
-    "TextField.background": "#c0e1c0",
+    "TextField.background": "#C0E1C0",
 
     "ToggleButton": {
       "onBackground": "#28a4c3",
@@ -296,7 +296,7 @@
       "Checkbox.Border.Default": "#8a9199",
       "Checkbox.Background.Selected": "#28a4c3",
       "Checkbox.Border.Selected": "#2896b2",
-      "Checkbox.Foreground.Selected": "#FFFFFF",
+      "Checkbox.Foreground.Selected": "#C0E1C0",
       "Checkbox.Focus.Wide": "#5fc5de",
       "Checkbox.Focus.Thin.Default": "#98a0aa4c",
       "Checkbox.Focus.Thin.Selected": "#82d3dd",
