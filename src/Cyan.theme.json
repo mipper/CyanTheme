@@ -2,9 +2,11 @@
   "name": "Cyan light",
   "dark": false,
   "author": "Olga Berdnikova",
-
   "editorScheme": "/themes/cyanScheme.xml",
 
+  "colors": {
+    "basicBackground": "#c0e1c0"
+  },
   "ui": {
     "*": {
       "background": "#e4e6eb",
@@ -55,10 +57,10 @@
 
     "ComboBox": {
       "background": "#eef0f4",
-      "nonEditableBackground": "#C0E1C0",
-      "ArrowButton.background": "#C0E1C0"
+      "nonEditableBackground": "basicBackground",
+      "ArrowButton.background": "basicBackground"
     },
-    "ComboBoxButton.background": "#C0E1C0",
+    "ComboBoxButton.background": "basicBackground",
     "ComboPopup.border": "1,1,1,1,b0b9c3",
 
     "CompletionPopup": {
@@ -80,7 +82,7 @@
 
     "Counter": {
       "background": "#9AA7B0",
-      "foreground": "#C0E1C0"
+      "foreground": "basicBackground"
     },
 
     "DefaultTabs": {
@@ -93,25 +95,23 @@
     },
 
     "Editor": {
-      "background": "#C0E1C0",
+      "background": "basicBackground",
       "foreground": "#808080",
       "shortcutForeground": "#1b9bb6"
     },
 
-    "EditorPane.inactiveBackground": "#e4e6eb",
+    "EditorPane": {
+      "background": "basicBackground",
+      "inactiveBackground": "#e4e6eb"
+    },
 
     "EditorTabs": {
-      "selectedBackground": "#f3f3f3",
-      "inactiveMaskColor": "#4752661A",
-
       "underlineColor": "#29abcb",
 
       "underlinedTabBackground": "#f2f4f5",
       "inactiveColoredFileBackground": "#a6a9b350",
       "hoverBackground": "#b9bdc999"
     },
-
-    "DebuggerTabs.selectedBackground": "#e4e6eb",
 
     "FileColor.Yellow": "#f2efda",
     "FileColor.Green": "#d8f0e2",
@@ -128,7 +128,7 @@
     },
 
     "List": {
-      "background": "#c0e1c0",
+      "background": "basicBackground",
       "hoverBackground": "#dae6eb",
       "hoverInactiveBackground": "#dae6eb"
     },
@@ -153,12 +153,11 @@
       "Notification.hoverBackground": "#dae6eb"
     },
 
-    "PasswordField.background": "#C0E1C0",
-
+    "PasswordField.background": "basicBackground",
 
     "Plugins": {
       "background": "#f5f7fa",
-      "SearchField.background": "#C0E1C0",
+      "SearchField.background": "basicBackground",
       "SectionHeader.foreground": "#808080",
       "SectionHeader.background": "#edeef2",
       "Tab.selectedBackground": "#cacccf",
@@ -194,7 +193,7 @@
     },
 
     "SearchEverywhere":  {
-      "SearchField.background": "#C0E1C0",
+      "SearchField.background": "basicBackground",
       "Tab.selectedBackground": "#d1d4d4",
       "Advertiser.foreground": "#787878"
     },
@@ -207,7 +206,7 @@
     "SidePanel.background": "#e4e6eb",
 
     "SpeedSearch": {
-      "background": "#C0E1C0",
+      "background": "basicBackground",
       "errorForeground": "#C7222D"
     },
 
@@ -218,7 +217,7 @@
     },
 
     "Table": {
-      "background": "#c0e1c0",
+      "background": "basicBackground",
       "hoverBackground": "#C3D2E366"
     },
 
@@ -228,9 +227,13 @@
       "bottomSeparatorColor": "#dfe2e6"
     },
 
-    "TextArea.background": "#C0E1C0",
+    "TextArea": {
+      "background": "basicBackground"
+    },
 
-    "TextField.background": "#C0E1C0",
+    "TextField": {
+      "background": "basicBackground"
+    },
 
     "ToggleButton": {
       "onBackground": "#28a4c3",
@@ -262,14 +265,14 @@
     },
 
     "Tree": {
-      "background": "#c0e1c0",
+      "background": "basicBackground",
       "hoverBackground": "#dae6eb",
       "hoverInactiveBackground": "#dae6eb",
       "hash": "#d0d5db"
     },
 
     "WelcomeScreen": {
-      "Details.background": "#c0e1c0",
+      "Details.background": "basicBackground",
       "Projects.actions.background": "#E1E4EB"
     }
   },
@@ -297,7 +300,7 @@
       "Checkbox.Border.Default": "#8a9199",
       "Checkbox.Background.Selected": "#28a4c3",
       "Checkbox.Border.Selected": "#2896b2",
-      "Checkbox.Foreground.Selected": "#C0E1C0",
+      "Checkbox.Foreground.Selected": "basicBackground",
       "Checkbox.Focus.Wide": "#5fc5de",
       "Checkbox.Focus.Thin.Default": "#98a0aa4c",
       "Checkbox.Focus.Thin.Selected": "#82d3dd",
