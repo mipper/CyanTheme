@@ -1,5 +1,10 @@
 A light theme in cyan tones for JetBrains IDEs. For version 2019.1 and above.
 
+To build the plugin jar:
+* Right click on the root node in Project
+* Select "Prepare plugin module XXX for deployment"
+![Prepare plugin for deployment](/screenshots/prepare-plugin-deployment.png)
+
 To install:
 * Go to _Settings (Preferences) | Plugins_, find the theme plugin and install it
 * Restart IDE
